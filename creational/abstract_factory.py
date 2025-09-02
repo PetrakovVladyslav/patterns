@@ -82,3 +82,8 @@ if __name__ == "__main__":
     game2 = Game(fantasy_factory)
     game2.setup_character()
     game2.battle()
+
+    print("\nСмена темы в процессе игры")
+    game1.factory = FantasyFactory()
+    game1.setup_character()
+    game1.battle()

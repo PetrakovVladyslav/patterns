@@ -1,33 +1,26 @@
-class GunInterface:
-    def shoot(self):
-        raise NotImplementedError
-
-class Gun(GunInterface):
+class Gun:
     def shoot(self):
         print("Выстрел!")
 
-class AmmoProxy(GunInterface):
-    def __init__(self, gun, ammo):
-        self._gun = gun
-        self._ammo = ammo
+class AmmoProxy:
+    def __init__(self, gun):
+        self.gun = gun
+        self.ammo = 3  # Патроны
 
     def shoot(self):
-        if self._ammo > 0:
-            self._ammo -= 1
-            self._gun.shoot()
-            print(f"Патронов осталось: {self._ammo}")
+        if self.ammo > 0:
+            self.ammo -= 1
+            self.gun.shoot()  # Стреляем
+            print(f"Патронов осталось: {self.ammo}")
         else:
             print("Нет патронов!")
 
-    def reload(self, ammo):
-        self._ammo += ammo
-        print(f"Патроны пополнены. Сейчас {self._ammo} патронов.")
-
 
 pistol = Gun()
-proxy = AmmoProxy(pistol, ammo=3)
+loaded_pistol = AmmoProxy(pistol)
 
-proxy.shoot()
-proxy.shoot()
-proxy.reload(2)
-proxy.shoot()
+print("Стрельба:")
+loaded_pistol.shoot()  # 1-й выстрел
+loaded_pistol.shoot()  # 2-й выстрел
+loaded_pistol.shoot()  # 3-й выстрел
+loaded_pistol.shoot()  # Пусто!

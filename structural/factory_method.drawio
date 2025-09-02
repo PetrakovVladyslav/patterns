@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2">
+  <diagram name="Page-1" id="cgDKYSk3BUUyGh3KUTPj">
+    <mxGraphModel dx="918" dy="1277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-1" value="Enemy" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-1">
+          <mxGeometry y="26" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-5" value="+ __init__(name, health, damage)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-1">
+          <mxGeometry y="34" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-6" value="&lt;div&gt;+ __str__ ()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;+ name:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-1">
+          <mxGeometry y="60" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-7" value="+ health:&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-1">
+          <mxGeometry y="118" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-15" value="+ damage:&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-1">
+          <mxGeometry y="144" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-16" value="&lt;div&gt;Orc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-17" value="+ __init__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-16">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-18" value="Goblin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-19" value="+ __init__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-18">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-20" value="Dragon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-21" value="+ __init__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-20">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-22" value="&lt;div&gt;OrcSpawner&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-23" value="+ create_enemy(): Orc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-22">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-24" value="GoblinSpawner" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-25" value="+ create_enemy(): Goblin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-24">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-26" value="DragonSpawner" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-27" value="+ create_enemy(); Dragon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-26">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-35" value="&lt;div&gt;EnemySpawner&lt;/div&gt;&lt;div&gt;abstract&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="680" width="180" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-37" value="+ create_enemy()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-35">
+          <mxGeometry y="60" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-39" value="+ spawn(): enemy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IldNawUb6TJKLr4IeKYZ-35">
+          <mxGeometry y="86" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.336;entryY=1.086;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-16" target="IldNawUb6TJKLr4IeKYZ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="380" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.429;entryY=1.145;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.453;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-18" target="IldNawUb6TJKLr4IeKYZ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="380" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.621;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.438;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-20" target="IldNawUb6TJKLr4IeKYZ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="380" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.494;exitY=1.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-23" target="IldNawUb6TJKLr4IeKYZ-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.523;exitY=1.132;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-25" target="IldNawUb6TJKLr4IeKYZ-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.456;exitY=1.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-27" target="IldNawUb6TJKLr4IeKYZ-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-63" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.482;entryY=1.106;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IldNawUb6TJKLr4IeKYZ-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="530" as="sourcePoint" />
+            <mxPoint x="320" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-64" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.458;entryY=1.106;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-24" target="IldNawUb6TJKLr4IeKYZ-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="510" as="sourcePoint" />
+            <mxPoint x="320" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-66" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.604;entryY=1.106;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IldNawUb6TJKLr4IeKYZ-26" target="IldNawUb6TJKLr4IeKYZ-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="510" as="sourcePoint" />
+            <mxPoint x="320" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-67" value="базовый класс описывает свойства" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="128" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-68" value="конкретные типа наследуют свойства от Enemy и задают свои значения" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="358" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-69" value="абстрактный класс задает интерфейс для создания врагов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-70" value="&amp;nbsp;реализует метод который создает конкретного врага" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IldNawUb6TJKLr4IeKYZ-71" value="гаследуют enemyyspawner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
