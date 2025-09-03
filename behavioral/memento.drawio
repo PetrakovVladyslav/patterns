@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2">
+  <diagram name="Page-1" id="-k9DxLNlTHZnoAsA9va0">
+    <mxGraphModel dx="1773" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-1" value="Memento&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="230" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-2" value="- _state: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-1">
+          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-1">
+          <mxGeometry y="76" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-4" value="+ __init__(state: str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-1">
+          <mxGeometry y="84" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-5" value="+ get_state()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-1">
+          <mxGeometry y="110" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-6" value="TextEditor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="230" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-7" value="- _text: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="76" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-9" value="+ __init__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="84" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-10" value="+ write(text: str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="110" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-11" value="+ save() -&amp;gt; Memento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="136" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-12" value="+ restore(memento: Memento)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="162" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-13" value="+ show()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry y="188" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-14" value="History" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="230" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-15" value="- _mementos: list[Memento]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-14">
+          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-14">
+          <mxGeometry y="76" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-17" value="+ __init__(state: str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-14">
+          <mxGeometry y="84" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-18" value="+ backup(memento: Memento)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-14">
+          <mxGeometry y="110" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-32" value="+ undo() -&amp;gt; Memento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="62Ebwo1yIqyGH6e_DYBX-14">
+          <mxGeometry y="136" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-34" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=12;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.012;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="62Ebwo1yIqyGH6e_DYBX-15" target="62Ebwo1yIqyGH6e_DYBX-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-35" value="Хистори хранит список обьектов Мементо" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-36" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="62Ebwo1yIqyGH6e_DYBX-6" target="62Ebwo1yIqyGH6e_DYBX-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-37" value="Текстедитор создает обьекты Мементо&amp;nbsp; в методе save" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="321" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=0.005;exitY=0.06;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="62Ebwo1yIqyGH6e_DYBX-32" target="62Ebwo1yIqyGH6e_DYBX-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="512" y="544" as="sourcePoint" />
+            <mxPoint x="500" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-39" value="опекун" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="628" y="151" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-40" value="снимок" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="138" y="91" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-41" value="создатель" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="188" y="361" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62Ebwo1yIqyGH6e_DYBX-42" value="в main происходит вызов editor.save and editor.restore. это медоды Текст едитора которые Хистори исспользует&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="770" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
