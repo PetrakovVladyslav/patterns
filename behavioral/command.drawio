@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2">
+  <diagram name="Страница — 1" id="I2GVZiCq6CRSa7opp72E">
+    <mxGraphModel dx="702" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9HAviGzm9rccxzQRb5hK-1" value="&lt;div&gt;Comaand&lt;/div&gt;&lt;div&gt;abstract&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-2" value="+execute()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-1">
+          <mxGeometry y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-3" value="Light" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="800" width="230" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-4" value="+ __init__(location)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-3">
+          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-6" value="+ turn_on&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-3">
+          <mxGeometry y="76" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-7" value="+ turn_off&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-3">
+          <mxGeometry y="102" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-10" value="TurnOnCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="583" width="180" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-11" value="+ __init__(light)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-10">
+          <mxGeometry y="50" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-12" value="+ execute()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-10">
+          <mxGeometry y="76" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-14" value="TurnOfCommand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="583" width="180" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-15" value="+ __init__(light)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-14">
+          <mxGeometry y="50" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-16" value="+ execute()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-14">
+          <mxGeometry y="76" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-17" value="RemoteControll" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="230" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-18" value="+ __init__()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-17">
+          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-19" value="+ set_command(command)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-17">
+          <mxGeometry y="76" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-20" value="+ press_button()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9HAviGzm9rccxzQRb5hK-17">
+          <mxGeometry y="102" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-21" value="инвокер, отправитнель команды, который вызывает выполнение команд через метод press_button. он не знает что делает команда" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="288" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-22" value="Ресивер, получатель. логика работы" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="810" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-23" value="класс с методом execute" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="348" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-24" value="реализуют интерфес Command&amp;nbsp; и связывают Ресивер с действием и вызывают его при execute" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="940" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.528;entryY=1.114;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9HAviGzm9rccxzQRb5hK-14" target="9HAviGzm9rccxzQRb5hK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="789" y="666" as="sourcePoint" />
+            <mxPoint x="690" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.551;entryY=1.084;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9HAviGzm9rccxzQRb5hK-10" target="9HAviGzm9rccxzQRb5hK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="626" as="sourcePoint" />
+            <mxPoint x="540" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-27" value="наследование" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="528" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-35" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.413;exitY=1.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9HAviGzm9rccxzQRb5hK-16" target="9HAviGzm9rccxzQRb5hK-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="670" as="sourcePoint" />
+            <mxPoint x="780" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-37" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.434;exitY=1.188;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9HAviGzm9rccxzQRb5hK-12" target="9HAviGzm9rccxzQRb5hK-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="574" y="930" as="sourcePoint" />
+            <mxPoint x="460" y="1042" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9HAviGzm9rccxzQRb5hK-38" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9HAviGzm9rccxzQRb5hK-18" target="9HAviGzm9rccxzQRb5hK-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="604" y="500" as="sourcePoint" />
+            <mxPoint x="490" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
