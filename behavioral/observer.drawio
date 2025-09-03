@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2">
+  <diagram name="Page-1" id="psXKA5NGNJkF1hDM0pG6">
+    <mxGraphModel dx="793" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-1" value="&lt;div&gt;Observer&lt;/div&gt;&lt;div&gt;abstract&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-2" value="+ update(price, old_price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-1">
+          <mxGeometry y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-3" value="BitcoinPublisher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-4" value="- _observers: list[Observer]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-9" value="- _price : initial_price" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="76" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="102" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-6" value="+ __init__(initial_price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="110" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-7" value="+ attach(observer)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="136" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-8" value="+ detach(observers)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="162" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-10" value="+ set_price(new_price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="188" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-11" value="+ notify (price, old_price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-3">
+          <mxGeometry y="214" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-21" value="FallSubscriber" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-22" value="+ update(price, old_price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-21">
+          <mxGeometry y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-23" value="RiseSubscriber" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-24" value="+ update(price, old_price)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RNTuodJ9hTrPmfwlARJn-23">
+          <mxGeometry y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-26" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.329;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.602;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RNTuodJ9hTrPmfwlARJn-23" target="RNTuodJ9hTrPmfwlARJn-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="680" as="sourcePoint" />
+            <mxPoint x="400" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-28" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.58;entryY=1.046;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RNTuodJ9hTrPmfwlARJn-21" target="RNTuodJ9hTrPmfwlARJn-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="512" as="sourcePoint" />
+            <mxPoint x="559" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-29" value="наследование" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="248" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-30" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.016;exitY=0.184;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RNTuodJ9hTrPmfwlARJn-2" target="RNTuodJ9hTrPmfwlARJn-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="sourcePoint" />
+            <mxPoint x="580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-31" value="издатель содержит список обьектов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-32" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RNTuodJ9hTrPmfwlARJn-9" target="RNTuodJ9hTrPmfwlARJn-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="sourcePoint" />
+            <mxPoint x="580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RNTuodJ9hTrPmfwlARJn-33" value="издателоь вызывает метод наблюдателя update&amp;nbsp; в своем методе notify" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
